@@ -1,0 +1,23 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+
+# --- Docker ---
+*.log
+
+# --- Terraform ---
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfvars
+
+# --- Misc, secrets ---
+.env
+
+# --- OS, editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
